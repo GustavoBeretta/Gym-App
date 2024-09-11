@@ -1,0 +1,120 @@
+{
+  "gyms": [
+    {
+      "name": "PowerFit Gym",
+      "image": 
+        "https://imgs.search.brave.com/pNDOpvu1DJF4DGdAsmF4WRtS0CzhrwtIUhcd0lXlTfk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jaHV6/ZWZpdG5lc3MuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy9NbkJI/VjlmQS0xMDI0eDYz/MC5qcGc"
+      ,
+      "address": "1234 Elm Street, New York, NY, 10001",
+      "map_icon": "https://example.com/icons/map-icon.png",
+      "hours": {
+        "monday_to_friday": "6:00 AM - 10:00 PM",
+        "saturday": "8:00 AM - 8:00 PM",
+        "sunday": "Closed"
+      },
+      "membership_price": "$50/month",
+      "contact_phone": "+1 212-555-0101",
+      "whatsapp": "https://wa.me/12125550101"
+    },
+    {
+      "name": "IronFlex Gym",
+      "images": [
+        "https://example.com/images/ironflex1.jpg",
+        "https://example.com/images/ironflex2.jpg"
+      ],
+      "address": "5678 Oak Avenue, Los Angeles, CA, 90012",
+      "map_icon": "https://example.com/icons/map-icon.png",
+      "hours": {
+        "monday_to_friday": "5:30 AM - 11:00 PM",
+        "saturday": "7:00 AM - 7:00 PM",
+        "sunday": "9:00 AM - 5:00 PM"
+      },
+      "membership_price": "$45/month",
+      "contact_phone": "+1 310-555-0202",
+      "whatsapp": "https://wa.me/13105550202"
+    },
+    {
+      "name": "MuscleZone",
+      "images": [
+        "https://example.com/images/musclezone1.jpg",
+        "https://example.com/images/musclezone2.jpg"
+      ],
+      "address": "91011 Pine Blvd, Chicago, IL, 60605",
+      "map_icon": "https://example.com/icons/map-icon.png",
+      "hours": {
+        "monday_to_friday": "6:00 AM - 9:00 PM",
+        "saturday": "8:00 AM - 6:00 PM",
+        "sunday": "Closed"
+      },
+      "membership_price": "$55/month",
+      "contact_phone": "+1 312-555-0303",
+      "whatsapp": "https://wa.me/13125550303"
+    },
+    {
+      "name": "FitMasters",
+      "images": [
+        "https://example.com/images/fitmasters1.jpg",
+        "https://example.com/images/fitmasters2.jpg"
+      ],
+      "address": "1314 Cedar Road, Houston, TX, 77002",
+      "map_icon": "https://example.com/icons/map-icon.png",
+      "hours": {
+        "monday_to_friday": "5:00 AM - 9:30 PM",
+        "saturday": "7:30 AM - 8:30 PM",
+        "sunday": "10:00 AM - 4:00 PM"
+      },
+      "membership_price": "$60/month",
+      "contact_phone": "+1 713-555-0404",
+      "whatsapp": "https://wa.me/17135550404"
+    },
+    {
+      "name": "BodyPower Gym",
+      "images": [
+        "https://example.com/images/bodypower1.jpg",
+        "https://example.com/images/bodypower2.jpg"
+      ],
+      "address": "1516 Maple Drive, Miami, FL, 33101",
+      "map_icon": "https://example.com/icons/map-icon.png",
+      "hours": {
+        "monday_to_friday": "5:30 AM - 10:00 PM",
+        "saturday": "8:00 AM - 6:00 PM",
+        "sunday": "Closed"
+      },
+      "membership_price": "$50/month",
+      "contact_phone": "+1 305-555-0505",
+      "whatsapp": "https://wa.me/13055550505"
+    }
+  ],
+  "tutorials": [
+    {
+      "thumbnail": "https://example.com/thumbnails/tutorial1.jpg",
+      "lesson_name": "Introduction to Weightlifting",
+      "instructor_name": "John Doe",
+      "duration": "15 minutes"
+    },
+    {
+      "thumbnail": "https://example.com/thumbnails/tutorial2.jpg",
+      "lesson_name": "Cardio Workouts for Beginners",
+      "instructor_name": "Jane Smith",
+      "duration": "20 minutes"
+    },
+    {
+      "thumbnail": "https://example.com/thumbnails/tutorial3.jpg",
+      "lesson_name": "Yoga for Flexibility",
+      "instructor_name": "Emily Johnson",
+      "duration": "25 minutes"
+    },
+    {
+      "thumbnail": "https://example.com/thumbnails/tutorial4.jpg",
+      "lesson_name": "High-Intensity Interval Training",
+      "instructor_name": "Michael Brown",
+      "duration": "30 minutes"
+    },
+    {
+      "thumbnail": "https://example.com/thumbnails/tutorial5.jpg",
+      "lesson_name": "Nutrition Tips for Athletes",
+      "instructor_name": "Sarah Lee",
+      "duration": "10 minutes"
+    }
+  ]
+}
