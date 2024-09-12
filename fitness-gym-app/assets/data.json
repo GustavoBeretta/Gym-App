@@ -116,5 +116,27 @@
       "instructor_name": "Sarah Lee",
       "duration": "10 minutes"
     }
+  ],
+  "news": [
+    {
+      "image": "https://i0.wp.com/prdnetshoes.wpcomstaging.com/wp-content/uploads/2024/01/como-tomar-creatina-em-po.jpg?fit=6000%2C4000&ssl=1",
+      "title": "Como tomar creatina em pó?",
+      "url": "https://www.netshoes.com.br/blog/bem-estar/post/como-tomar-creatina-em-po"
+    },
+    {
+      "image": "https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/gettyimages-942531740.webp?w=1600&h=900",
+      "title": "De quanta proteína você realmente precisa?",
+      "url": "https://www.nationalgeographicbrasil.com/ciencia/2023/08/de-quanta-proteina-voce-realmente-precisa"
+    },
+    {
+      "image": "https://www.smartfit.com.br/news/wp-content/uploads/2015/05/Quantas-vezes-treinar-o-mesmo-m%C3%BAsculo-na-semana.jpg",
+      "title": "Quantas vezes devo treinar na semana?",
+      "url": "https://www.smartfit.com.br/news/fitness/quantas-vezes-treinar-na-semana-frequencia-de-treino/"
+    },
+    {
+      "image": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/02/ganho-massa-magra.jpg?w=1220&h=674&crop=1&quality=85",
+      "title": "9 erros comuns que prejudicam o ganho de massa muscular",
+      "url": "https://www.cnnbrasil.com.br/saude/9-erros-comuns-que-prejudicam-o-ganho-de-massa-muscular/"
+    }
   ]
 }

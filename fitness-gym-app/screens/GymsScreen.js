@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ScrollView, View, Text, Image, StyleSheet, Linking, TouchableOpacity } from 'react-native';
-import gymsData from '../data.json'; 
+import gymsData from '../assets/data.json'; 
 
 const GymsScreen = () => {
   const [gyms, setGyms] = useState([]);

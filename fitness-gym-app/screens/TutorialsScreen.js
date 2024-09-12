@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ScrollView, View, Text, Image, StyleSheet, Linking, TouchableOpacity } from 'react-native';
-import tutorialsData from '../data.json'; 
-
+import tutorialsData from '../assets/data.json'; 
 
 
 
