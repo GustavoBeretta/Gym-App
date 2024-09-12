@@ -2,9 +2,7 @@
   "gyms": [
     {
       "name": "PowerFit Gym",
-      "image": 
-        "https://imgs.search.brave.com/pNDOpvu1DJF4DGdAsmF4WRtS0CzhrwtIUhcd0lXlTfk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jaHV6/ZWZpdG5lc3MuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy9NbkJI/VjlmQS0xMDI0eDYz/MC5qcGc"
-      ,
+      "image": "https://imgs.search.brave.com/pNDOpvu1DJF4DGdAsmF4WRtS0CzhrwtIUhcd0lXlTfk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jaHV6/ZWZpdG5lc3MuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy9NbkJI/VjlmQS0xMDI0eDYz/MC5qcGc",
       "address": "1234 Elm Street, New York, NY, 10001",
       "map_icon": "https://example.com/icons/map-icon.png",
       "hours": {
@@ -18,10 +16,7 @@
     },
     {
       "name": "IronFlex Gym",
-      "images": [
-        "https://example.com/images/ironflex1.jpg",
-        "https://example.com/images/ironflex2.jpg"
-      ],
+      "image": "https://imgs.search.brave.com/cWznOlGq_iJAml-oYIXfjZS53m48HTDsjyI6ej3ffR4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM0/NTIyODkzNC9waG90/by9neW0uanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPXh3OVFO/bE8tbjBQVVF2QlUt/MC1PTThFSmFZSkh4/Y2NEM2tEbGtVM3N0/QXc9",
       "address": "5678 Oak Avenue, Los Angeles, CA, 90012",
       "map_icon": "https://example.com/icons/map-icon.png",
       "hours": {
@@ -35,10 +30,7 @@
     },
     {
       "name": "MuscleZone",
-      "images": [
-        "https://example.com/images/musclezone1.jpg",
-        "https://example.com/images/musclezone2.jpg"
-      ],
+      "image": "https://imgs.search.brave.com/c45hP8xrXf0RJ5AWEE1UWCxRhAH1l6ieN1c2eBLjjyA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM0/NzA5Mjg5NS9waG90/by9neW0uanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPVplaGk0/TTVPR0lWbHpmLVd3/bm9sUm55cGVGeVlu/QUs5R1VwblFMdF9o/Rk09",
       "address": "91011 Pine Blvd, Chicago, IL, 60605",
       "map_icon": "https://example.com/icons/map-icon.png",
       "hours": {
@@ -52,10 +44,7 @@
     },
     {
       "name": "FitMasters",
-      "images": [
-        "https://example.com/images/fitmasters1.jpg",
-        "https://example.com/images/fitmasters2.jpg"
-      ],
+      "image": "https://imgs.search.brave.com/LY7zNcyMUVnoIsPko4sP9sXQJgVNzWrrhkWN1iBtylo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9neW0tZXF1aXBt/ZW50cy1maXRuZXNz/LWNsdWJfMjMtMjE0/Nzk0OTc0NC5qcGc_/c2l6ZT02MjYmZXh0/PWpwZw",
       "address": "1314 Cedar Road, Houston, TX, 77002",
       "map_icon": "https://example.com/icons/map-icon.png",
       "hours": {
@@ -69,10 +58,7 @@
     },
     {
       "name": "BodyPower Gym",
-      "images": [
-        "https://example.com/images/bodypower1.jpg",
-        "https://example.com/images/bodypower2.jpg"
-      ],
+      "image": "https://imgs.search.brave.com/RnSDPhu7Mnprqg-HbRPxkYf6amZfTjLXKtePyHK25Zg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTQ5/NTAwNjM0L3Bob3Rv/L2EtZ3ltLXNjZW5l/LXdpdGgtdmFyaW91/cy1lcXVpcG1lbnQu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PXBaTU1TU0F1ZHdi/WHZjQ0ZkbV9jVjI3/d2VYMVhKdDBSOFMx/SGloSEhaMW89",
       "address": "1516 Maple Drive, Miami, FL, 33101",
       "map_icon": "https://example.com/icons/map-icon.png",
       "hours": {
