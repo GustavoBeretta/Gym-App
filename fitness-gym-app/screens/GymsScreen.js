@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { ScrollView, View, Text, Image, StyleSheet, Linking, TouchableOpacity } from 'react-native';
-import gymsData from '../assets/data.json'; 
+import { useNavigation } from '@react-navigation/native';
+import gymsData from '../assets/data.json';
 
 const GymsScreen = () => {
   const [gyms, setGyms] = useState([]);
+  const navigation = useNavigation();
 
   useEffect(() => {
     setGyms(gymsData.gyms);
@@ -12,17 +14,18 @@ const GymsScreen = () => {
   return (
     <ScrollView style={styles.scrollView}>
       {gyms.map((gym, index) => (
-        <View key={index} style={styles.card} >
-            <Image source={{ uri: gym.image }} style={styles.image} />
+        <TouchableOpacity key={index} style={styles.card} onPress={() => navigation.navigate('Gym Details', { gym })}>
+          <Image source={{ uri: gym.image }} style={styles.image} />
           <View style={styles.infoContainer}>
             <Text style={styles.gymName}>{gym.name}</Text>
             <Text style={styles.gymAddress}>{gym.duration}</Text>
             <Text style={styles.gymHours}>Hours: {gym.hours.monday_to_friday}</Text>
             <Text style={styles.membership}>Price: {gym.membership_price}</Text>
           </View>
-        </View>
-      ))}
-    </ScrollView>
+        </TouchableOpacity>
+      ))
+      }
+    </ScrollView >
   );
 };
 
