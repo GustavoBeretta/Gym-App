@@ -73,34 +73,32 @@
   ],
   "tutorials": [
     {
-      "thumbnail": "https://example.com/thumbnails/tutorial1.jpg",
-      "lesson_name": "Introduction to Weightlifting",
-      "instructor_name": "John Doe",
-      "duration": "15 minutes"
+      "image": "https://i.ytimg.com/vi/yopIHJ-jr3w/maxresdefault.jpg",
+      "lesson_name": "Rosca Direta com Barra Reta - Exercício para Bíceps",
+      "instructor_name": "MyTrainingPRO",
+      "duration": "1 minuto",
+      "url": "https://www.youtube.com/watch?v=yopIHJ-jr3w"
     },
     {
-      "thumbnail": "https://example.com/thumbnails/tutorial2.jpg",
-      "lesson_name": "Cardio Workouts for Beginners",
-      "instructor_name": "Jane Smith",
-      "duration": "20 minutes"
+      "image": "https://i.ytimg.com/vi/22pdiHUd-Q4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAuMDAtn1ig_GIAu9TSBSGBeXFE5Q",
+      "lesson_name": "Como começar a correr? CORRIDA PARA INICIANTES",
+      "instructor_name": "Raquel Castanharo",
+      "duration": "12 minutos",
+      "url": "https://www.youtube.com/watch?v=22pdiHUd-Q4"
     },
     {
-      "thumbnail": "https://example.com/thumbnails/tutorial3.jpg",
-      "lesson_name": "Yoga for Flexibility",
-      "instructor_name": "Emily Johnson",
-      "duration": "25 minutes"
+      "image": "https://i.ytimg.com/vi/agpapDtcqLg/maxresdefault.jpg",
+      "lesson_name": "FAÇA VOCÊ MESMO - CALCULE SUAS CALORIAS",
+      "instructor_name": "Renato Cariani",
+      "duration": "14 minutos",
+      "url": "https://www.youtube.com/watch?v=agpapDtcqLg"
     },
     {
-      "thumbnail": "https://example.com/thumbnails/tutorial4.jpg",
-      "lesson_name": "High-Intensity Interval Training",
-      "instructor_name": "Michael Brown",
-      "duration": "30 minutes"
-    },
-    {
-      "thumbnail": "https://example.com/thumbnails/tutorial5.jpg",
-      "lesson_name": "Nutrition Tips for Athletes",
-      "instructor_name": "Sarah Lee",
-      "duration": "10 minutes"
+      "image": "https://i.ytimg.com/vi/4Fn2aFsjtUU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDWkx2DBlY6ZoUP6-zSwDQyPz9YDQ",
+      "lesson_name": "Como agir quando perder um dia de treino?",
+      "instructor_name": "Leandro Twin",
+      "duration": "9 minutos",
+      "url": "https://www.youtube.com/watch?v=4Fn2aFsjtUU"
     }
   ],
   "news": [

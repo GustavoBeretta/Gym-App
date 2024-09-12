@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <SafeAreaView style={styles.header}> 
       <Image style={styles.icon}
-        source={require("../assets/favicon.png")}
+        source={require("../assets/header-icon.png")}
       />
       <View>
         <Text style={styles.title}>
@@ -33,11 +33,11 @@ const styles = StyleSheet.create({
     marginRight: 10
   },
   title: {
-    fontSize: 24, // Texto maior
-    fontWeight: 'bold', // Texto em negrito
+    fontSize: 24,
+    fontWeight: 'bold',
   },
   subtitle: {
-    fontSize: 18, // Texto menor que o título
+    fontSize: 18,
   },
 });
 
