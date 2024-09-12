@@ -14,7 +14,10 @@ const GymsScreen = () => {
   return (
     <ScrollView style={styles.scrollView}>
       {gyms.map((gym, index) => (
-        <TouchableOpacity key={index} style={styles.card} onPress={() => navigation.navigate('Gym Details', { gym })}>
+        <TouchableOpacity
+          key={index}
+          style={styles.card}
+          onPress={() => navigation.navigate('GymDetails', { gym })}>
           <Image source={{ uri: gym.image }} style={styles.image} />
           <View style={styles.infoContainer}>
             <Text style={styles.gymName}>{gym.name}</Text>

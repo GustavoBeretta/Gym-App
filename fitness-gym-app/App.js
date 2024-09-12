@@ -2,19 +2,12 @@ import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import NewsScreen from './screens/NewsScreen';
 import TutorialsScreen from './screens/TutorialsScreen';
-import GymsScreen from './screens/GymsScreen';
-import Navbar from './components/NavBarr';
 import Header from './components/Header';
-import { View } from 'react-native';
-import GymDetails from './screens/GymDetails';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import NewsScreen from './screens/NewsScreen';
-import TutorialsScreen from './screens/TutorialsScreen';
-import GymsScreen from './screens/GymsScreen';
-import Header from './components/Header';
 import { Image } from 'react-native';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
+import GymsStack from './routes/gymsStack'; // Updated import
 
 const Tab = createBottomTabNavigator();
 
@@ -36,11 +29,11 @@ const App = () => {
             let iconName;
 
             if (route.name === 'News') {
-              iconName = require('./assets/news.png')
+              iconName = require('./assets/news.png');
             } else if (route.name === 'Gyms') {
-              iconName = require('./assets/gyms.png')
+              iconName = require('./assets/gyms.png');
             } else if (route.name === 'Tutorials') {
-              iconName = require('./assets/tutorials.png')
+              iconName = require('./assets/tutorials.png');
             }
 
             return <Image source={iconName} style={{ width: 50, height: 50 }} />;
@@ -56,14 +49,14 @@ const App = () => {
         />
         <Tab.Screen
           name="Gyms"
-          component={GymsScreen}
+          component={GymsStack} // Using the correctly named GymsStack
         />
         <Tab.Screen
           name="Tutorials"
           component={TutorialsScreen}
         />
       </Tab.Navigator>
-    </NavigationContainer >
+    </NavigationContainer>
   );
 }
 
