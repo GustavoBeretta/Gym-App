@@ -33,11 +33,11 @@ const styles = StyleSheet.create({
     marginRight: 10
   },
   title: {
-    fontSize: 24, // Texto maior
-    fontWeight: 'bold', // Texto em negrito
+    fontSize: 24,
+    fontWeight: 'bold',
   },
   subtitle: {
-    fontSize: 18, // Texto menor que o título
+    fontSize: 18,
   },
 });
 

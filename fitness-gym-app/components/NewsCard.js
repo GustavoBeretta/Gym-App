@@ -25,6 +25,8 @@ const styles = StyleSheet.create({
     padding: 0,
     borderRadius: 10,
     overflow: 'hidden',
+    marginBottom: 10,
+    marginTop: 10
   },
   image: {
     height: 200,
@@ -35,7 +37,7 @@ const styles = StyleSheet.create({
   },
   overlay: {
     flex: 1,
-    backgroundColor: 'rgba(0, 0, 0, 0.5)', // Ajuste a opacidade conforme necessário
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -43,6 +45,7 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 20,
     fontWeight: 'bold',
+    textAlign: 'center',
   },
 });
 
