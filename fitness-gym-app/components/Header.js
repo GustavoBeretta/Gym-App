@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <SafeAreaView style={styles.header}> 
       <Image style={styles.icon}
-        source={require("../assets/favicon.png")}
+        source={require("../assets/header-icon.png")}
       />
       <View>
         <Text style={styles.title}>

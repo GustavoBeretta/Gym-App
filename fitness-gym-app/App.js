@@ -5,11 +5,21 @@ import NewsScreen from './screens/NewsScreen';
 import TutorialsScreen from './screens/TutorialsScreen';
 import GymsScreen from './screens/GymsScreen'; 
 import Header from './components/Header';
-import { Image, StyleSheet } from 'react-native';
+import { Image } from 'react-native';
+import * as SplashScreen from 'expo-splash-screen';
+import { useEffect } from 'react';
 
 const Tab = createBottomTabNavigator();
 
-export default function App() {
+SplashScreen.preventAutoHideAsync();
+
+const App = () => {
+  useEffect(() => {
+    setTimeout(async () => {
+      await SplashScreen.hideAsync();
+    }, 2000);
+  }, []);
+
   return (
     <NavigationContainer>
       <Header />
@@ -49,3 +59,5 @@ export default function App() {
     </NavigationContainer>
   );
 }
+
+export default App;
