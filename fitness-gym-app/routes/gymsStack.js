@@ -9,7 +9,7 @@ const GymsStack = () => {
     return (
         <Stack.Navigator initialRouteName="Gyms">
             <Stack.Screen
-                name="Gyms"
+                name="Home"
                 component={GymsScreen}
                 options={{ title: 'Gyms List' }} // Defina as opções conforme necessário
             />
