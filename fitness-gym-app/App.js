@@ -49,7 +49,7 @@ const App = () => {
         />
         <Tab.Screen
           name="Gyms"
-          component={GymsStack} // Using the correctly named GymsStack
+          component={GymsStack}
         />
         <Tab.Screen
           name="Tutorials"
