@@ -24,7 +24,7 @@ const GymDetails = ({ route }) => {
                 <Text style={styles.membership}>Avarage Price: {gym.membership_price}</Text>
                 <View style={styles.icons}>
                     <Icon name='whatsapp' size={50} onPress={() => openLink(gym.whatsapp)} color="green" />
-                    <Icon name='map-pin' size={50} onPress={() => openLink(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(gym.address)}`)} />
+                    <Icon name='map-marker' color="red" size={50} onPress={() => openLink(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(gym.address)}`)} />
 
                 </View>
 
