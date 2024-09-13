@@ -1,10 +1,7 @@
 import * as React from 'react';
 import { View, ImageBackground, StyleSheet, Linking, TouchableOpacity } from 'react-native';
 import { Card, Text } from 'react-native-paper';
-
-const openLink = (url) => {
-  Linking.openURL(url).catch((err) => console.error('Erro ao abrir o link:', err));
-};
+import openLink from '../utils';
 
 const TutorialCard = ({ imageUrl, lesson_name, instructor_name, duration, url }) => {
   return (
