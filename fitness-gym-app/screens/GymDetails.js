@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet, Dimensions, ScrollView } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome'
+import openLink from '../utils';
 
 const { width, height } = Dimensions.get('window')
 
@@ -22,8 +23,9 @@ const GymDetails = ({ route }) => {
 
                 <Text style={styles.membership}>Avarage Price: {gym.membership_price}</Text>
                 <View style={styles.icons}>
-                    <Icon name='whatsapp' size={50} color="green" />
-                    <Icon name='map-pin' size={50} color='red' />
+                    <Icon name='whatsapp' size={50} onPress={() => openLink(gym.whatsapp)} color="green" />
+                    <Icon name='map-pin' size={50} onPress={() => openLink(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(gym.address)}`)} />
+
                 </View>
 
             </View>
