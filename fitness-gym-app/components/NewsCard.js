@@ -1,10 +1,7 @@
 import React from 'react';
 import { View, Text, ImageBackground, StyleSheet, TouchableOpacity, Linking } from 'react-native';
 import { Card } from 'react-native-elements';
-
-const openLink = (url) => {
-  Linking.openURL(url).catch((err) => console.error('Erro ao abrir o link:', err));
-};
+import openLink from '../utils';
 
 const NewsCard = ({ imageUrl, title, url }) => {
   return (
