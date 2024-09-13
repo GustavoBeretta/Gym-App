@@ -7,16 +7,16 @@ const Stack = createStackNavigator();
 
 const GymsStack = () => {
     return (
-        <Stack.Navigator initialRouteName="Gyms">
+        <Stack.Navigator initialRouteName="Gyms" >
             <Stack.Screen
                 name="Home"
                 component={GymsScreen}
-                options={{ title: 'Gyms List' }} // Defina as opções conforme necessário
+                options={{ title: 'Gyms', headerShown: false }} // Defina as opções conforme necessário
             />
             <Stack.Screen
                 name="GymDetails"
                 component={GymDetails}
-                options={{ title: 'Gym Details' }} // Defina as opções conforme necessário
+                options={{ title: 'Details' }} // Defina as opções conforme necessário
             />
         </Stack.Navigator>
     );
