@@ -7,7 +7,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Image } from 'react-native';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
-import GymsStack from './routes/gymsStack'; // Updated import
+import GymsStack from './routes/gymsStack';
 
 const Tab = createBottomTabNavigator();
 
