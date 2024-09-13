@@ -11,12 +11,12 @@ const GymsStack = () => {
             <Stack.Screen
                 name="Home"
                 component={GymsScreen}
-                options={{ title: 'Gyms', headerShown: false }} // Defina as opções conforme necessário
+                options={{ title: 'Gyms', headerShown: false }}
             />
             <Stack.Screen
                 name="GymDetails"
                 component={GymDetails}
-                options={{ title: 'Details' }} // Defina as opções conforme necessário
+                options={{ title: 'Details', headerShown: false }}
             />
         </Stack.Navigator>
     );

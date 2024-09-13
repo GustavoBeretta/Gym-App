@@ -21,7 +21,7 @@ const GymDetails = ({ route }) => {
                 <Text style={styles.gymHours}>Saturday: {gym.hours.saturday}</Text>
                 <Text style={styles.gymHours}>Sunday: {gym.hours.sunday}</Text>
 
-                <Text style={styles.membership}>Avarage Price: {gym.membership_price}</Text>
+                <Text style={styles.membership}>Average Price: {gym.membership_price}</Text>
                 <View style={styles.icons}>
                     <Icon name='whatsapp' size={50} onPress={() => openLink(gym.whatsapp)} color="green" />
                     <Icon name='map-marker' color="red" size={50} onPress={() => openLink(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(gym.address)}`)} />
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     },
     container: {
         padding: 20,
-        flex: 'flex-row',
+        /*flex: 'flex-row',*/
         alignItems: 'center',
         gap: 2,
     },
