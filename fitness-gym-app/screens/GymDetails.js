@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet, Dimensions, ScrollView } from 'react-native';
+import { View, Text, Image, StyleSheet, Dimensions, ScrollView, Platform } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome'
 import openLink from '../utils';
 
@@ -8,6 +8,11 @@ const { width } = Dimensions.get('window')
 const GymDetails = ({ route }) => {
     const { gym } = route.params;
 
+    const loc_url = Platform.select({
+        ios: `maps:0,0?q=${gym.address}`,
+        android: `geo:0,0?q=${gym.address}`
+    });
+      
     return (
         <ScrollView>
             <Image source={{ uri: gym.image }} style={styles.image} />
@@ -21,7 +26,7 @@ const GymDetails = ({ route }) => {
                 <Text style={styles.membership}>Average Price: {gym.membership_price}</Text>
                 <View style={styles.icons}>
                     <Icon name='whatsapp' size={50} onPress={() => openLink(gym.whatsapp)} color="green" />
-                    <Icon name='map-marker' color="red" size={50} onPress={() => openLink(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(gym.address)}`)} />
+                    <Icon name='map-marker' color="red" size={50} onPress={() => openLink(loc_url)} />
                 </View>
             </View>
         </ScrollView>
